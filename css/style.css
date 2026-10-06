@@ -111,3 +111,28 @@ label{
 .content h1{
     text-transform:capitalize ;
 }
+
+/* mobile layout and media queries */
+
+@media (max-width: 810px) {
+    form{
+        margin-left:20px;
+    }
+    .header-right{
+        flex-direction: column;
+    }
+}
+
+@media (max-width:576px) {
+    header {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .header-right{
+        flex-direction: column;
+    }
+    .container{
+        flex-direction: column;
+    }
+}
