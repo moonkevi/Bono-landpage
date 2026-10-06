@@ -30,13 +30,28 @@ header{
     gap: 20px;
 }
 
+.header-right i{
+    margin-right: 5px; 
+}
+
 .logo{
     text-transform: capitalize;
     font-family: 'lobster';
     font-size: 29px;
-    font-weight: 100;
+    font-weight: 100;   
 }
 
+.fa-solid{
+    font-size: 12px;
+}
+
+.fa-twitter{
+    color: #fff;
+}
+
+.fa-twitter:hover{
+    color: blue;
+}
 /* main container */
 
 .container{
@@ -44,7 +59,7 @@ header{
     max-width: 800px;
     margin: 100px auto;
     /* gap: 3rem; */
-}
+} 
 
 /* form styles */
 
@@ -66,8 +81,6 @@ input[type="text"], input[type="email"], textarea {
 }
 
 button[type="submit"]{
-
-
     width: 300px;
     padding: 10px;
     color: white;
